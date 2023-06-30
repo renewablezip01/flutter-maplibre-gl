@@ -8,6 +8,8 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
+import 'package:simple_platform_view/simple_platform_view.dart';
+
 part 'src/view_wrappers.dart';
 part 'src/annotation.dart';
 part 'src/callbacks.dart';
@@ -21,3 +23,4 @@ part 'src/fill.dart';
 part 'src/ui.dart';
 part 'src/mapbox_gl_platform_interface.dart';
 part 'src/source_properties.dart';
+

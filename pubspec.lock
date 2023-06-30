@@ -46,6 +46,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_plugin_android_lifecycle:
+    dependency: transitive
+    description:
+      name: flutter_plugin_android_lifecycle
+      sha256: "950e77c2bbe1692bc0874fc7fb491b96a4dc340457f4ea1641443d0a6c1ea360"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.15"
   flutter_web_plugins:
     dependency: transitive
     description: flutter
@@ -55,10 +63,10 @@ packages:
     dependency: transitive
     description:
       name: image
-      sha256: "8e9d133755c3e84c73288363e6343157c383a0c6c56fc51afcc5d4d7180306d6"
+      sha256: a72242c9a0ffb65d03de1b7113bc4e189686fc07c7147b8b41811d0dd0e0d9bf
       url: "https://pub.dev"
     source: hosted
-    version: "3.3.0"
+    version: "4.0.17"
   js:
     dependency: transitive
     description:
@@ -122,6 +130,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.1.0"
+  plugin_platform_interface:
+    dependency: transitive
+    description:
+      name: plugin_platform_interface
+      sha256: "6a2128648c854906c53fa8e33986fc0247a1116122f9534dd20e3ab9e16a32bc"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.4"
   pointycastle:
     dependency: transitive
     description:
@@ -130,6 +146,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.7.2"
+  simple_platform_view:
+    dependency: "direct main"
+    description:
+      name: simple_platform_view
+      sha256: ef7e16bf740bb3d9cf75c6da8466e7f11da98048062e209dd755091b3a010d02
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.3"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -161,4 +185,4 @@ packages:
     version: "6.2.2"
 sdks:
   dart: ">=3.0.0-0 <4.0.0"
-  flutter: ">=2.0.0"
+  flutter: ">=3.3.0"

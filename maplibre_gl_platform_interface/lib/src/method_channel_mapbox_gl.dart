@@ -199,7 +199,7 @@ class MethodChannelMaplibreGl extends MapLibreGlPlatform {
             creationParamsCodec: const StandardMessageCodec(),
           );
         }
-        return AndroidView(
+        return SimpleAndroidView(
           viewType: 'plugins.flutter.io/mapbox_gl',
           onPlatformViewCreated: onPlatformViewCreated,
           gestureRecognizers: gestureRecognizers,
